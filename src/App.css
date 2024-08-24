@@ -1,0 +1,47 @@
+.background{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box{
+  width: 60vw;
+  padding: 10px;
+}
+
+
+.contQuote{
+  display: flex;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+}
+#author{
+  padding: 5ppx;
+}
+
+#author{
+  text-align: end;
+  padding: 5px 30px;
+}
